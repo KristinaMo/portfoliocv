@@ -1,0 +1,38 @@
+.bar{
+    align-items: flex-end;
+background-color: #ccc4c4;
+color: #666;
+font-size: 7pt;
+height: 22px;
+margin: 0 0 12px 0;
+position: relative;
+font-size: 11pt;
+height: 28px;
+margin: 0 0 15px 0;
+}
+
+.bar  .fill{
+left: 0;
+position: absolute;
+top: 0;
+background-color: #00a1a7;
+opacity: 1;
+padding: 0;
+}
+
+.tag {
+left: 0;
+position: absolute;
+top: 0;
+background-color: #04c2c9;
+color: #fff;
+height: 100%;
+width: 116px;
+text-align: center;
+}
+.navskills{
+
+max-width: 60%;
+width: 522px;
+
+}

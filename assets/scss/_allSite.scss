@@ -1,0 +1,253 @@
+@-ms-viewport {
+    width: device-width;
+}
+
+
+html {
+    box-sizing: border-box;
+ }
+
+
+ @media screen and (max-width: 1145px) {
+
+.title1, .title2  { 
+      
+      font-size: 30pt;
+        
+        
+   }
+
+}
+
+@media screen and (max-width: 400px){
+    .title1, .title2{
+        font-size: 16pt;
+    }
+
+}
+
+
+
+
+
+
+
+ @media screen and (max-width: 1680px) {
+
+ body, input, textarea {
+       font-size: 13pt;
+    }
+
+ }
+
+ 
+ @media screen and (max-width: 1044px){
+     .nav-portfolio ul{
+        flex-direction: column;
+        padding: 44px 21px;
+     }
+
+     .nav-portfolio li{
+
+    font-size: 26px!important;
+    text-align: center;
+
+     }
+ }
+
+ @media screen and (max-width: 892px){
+     .gellary-photo{
+
+        flex-direction: column;
+        margin-top: -9%;
+
+     }
+
+     .rectangle3{
+
+        margin-top: 17%;
+     }
+     #contact{
+        margin-top: 36%! important;
+    width: 50%! important;
+    min-width: 386px;
+    }
+
+    .button{
+        padding: 9px 34px! important;
+    }
+
+    #contactForm{
+        min-width: 287px;
+    }
+
+
+    }
+ @media screen and(max-width:958px){
+    .table{
+        flex-direction: column;
+      
+    }
+ }
+
+ @media screen and(max-width:706px){
+    body, input, textarea {
+        font-size: 8pt;
+
+     }
+
+     .competences{
+         flex-direction: column;
+       
+     }
+     .competences img{
+         width: 50px;
+     }
+
+    .block h4{
+         font-size: 14px;
+     }
+
+     .table{
+        flex-direction: column;
+        text-align: center;
+     }
+
+     .icon-header img{
+         width: 20px;
+     }
+
+     .block-photo{
+       width: 265px;
+        font-size: 14px;
+     }
+
+     .block-photo img{
+         width: 194px;
+     }
+
+     .navskills{
+        max-width: 89%;
+     }
+     .rectangle3{
+
+        margin-top: 17%;
+     }
+
+
+ }
+
+ @media screen and(max-width:768px){
+
+    h2 {
+        margin: 0;
+        font-size: 30px!important;
+    }
+     .rectangle2{
+         width: 300px;
+         height: 60px;
+     }
+
+     .rectangle{
+        width: 300px!important;
+        height: 60px!important;
+     }
+     .rectangle3{
+        width: 300px!important;
+        height: 60px!important;
+     }
+     #contact{
+      
+        width: 42%!important;
+    }
+
+    .button{
+        padding: 4px 25px!important;
+        font-size: 14px!important;
+    }
+
+    .gellary-photo .img-area {
+        width: 80%;
+    }
+    #contactForm{
+
+        width: 79%;
+
+    }
+
+    
+.title1, .title2  { 
+      
+    font-size: 20pt;
+
+      
+      
+ }
+
+ .title2{
+
+    margin-top: -25px;
+ }
+
+
+
+
+ }
+
+ @media screen and (max-width: 1280px) {
+
+ body, input, textarea {
+       font-size: 12pt;
+    }
+
+}
+
+ @media screen and (max-width: 360px) {
+
+   body, input, textarea {
+        font-size: 8pt! important;
+     }
+    }
+
+  
+
+ 
+
+ @media(min-width:570px){
+    .image-header img{
+       margin-top: -4%;
+      
+    }
+ 
+ }
+ 
+
+@media(max-width:570px){
+   .image-header img{
+       width: 400px;
+   }
+
+}
+
+@media(max-width:395px){
+    .image-header img{
+        width: 245px;
+        margin-top: 10%;
+    }
+}
+
+@media(max-width:427px){
+   nav, li{
+        font-size: 15px;
+        margin-left: 3%;
+    }
+}
+
+// @keyframes slideMe{
+//     0%{
+//         transform: skewX(50 d translateX(-500px);
+//     }
+//     100%{
+//         transform:
+//     }
+// }

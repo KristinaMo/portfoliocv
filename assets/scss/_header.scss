@@ -1,0 +1,52 @@
+#header{
+    
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  z-index: 3;
+  background-size: cover;
+  box-sizing: border-box;
+  background-color: #aa8eca;
+
+}
+
+
+.image-header{
+    text-align: center;
+    margin-top: -4%;
+   
+ }
+ 
+ .title1 {
+     font-size: 60px;
+     font-family: "Lato";
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+     position: absolute;
+     left: 8%;
+     top: 16%;
+     //animation: slideMe 7s ease-in; 
+    
+   }
+  
+   .title2 {
+     font-size: 60px;
+     font-family: "Lato";
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+     position: absolute;
+     right: 10%;
+     top: 16%;
+
+     
+   }
+
+   .icon-header{
+       text-align: right;
+       padding: 0px 15px;
+   }
+
+   .icon-header img{
+       width: 30px;
+       margin-top: 1%;
+   }

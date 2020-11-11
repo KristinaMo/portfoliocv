@@ -1,0 +1,68 @@
+#portfolio{
+    position: relative;
+    background-color: $port;
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-top: 6%;
+
+}
+.nav-portfolio{
+    padding: 8%;
+}
+
+.nav-portfolio ul li{
+    font-size: 33px;
+}
+.nav-portfolio li  a{
+        color:#5b5656;
+    }
+
+
+.rectangle{
+    border-radius: 50px;
+    background-color: #aa8eca;
+    position: absolute;
+    width: 50vw;
+    height: 127px;
+    z-index: 44;
+    border-top-left-radius: 0px 0px;
+    border-bottom-left-radius: 0px 0px;
+    right: 0;
+}
+
+h2{
+
+    font-size: 48px;
+        font-family: "Lato";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        right: 18%;
+        z-index: 72;
+}
+
+.gellary-photo {
+
+   .block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 59px;
+
+    }
+ .img-area {
+        padding: 0 20px 50px;
+        width: 40%;
+        margin: auto;
+}
+
+.img-area img {
+    width: 100%;
+};
+}
